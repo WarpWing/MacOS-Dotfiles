@@ -1,0 +1,84 @@
+TERM: xterm-256color
+
+font:
+  size: 13.0
+  normal:
+    family: FiraCode Nerd Font
+    style: Regular
+
+  Bold:
+    family: FiraCode Nerd Font
+    style: Bold
+
+  italic:
+    family: FiraCode Nerd Font
+    style: Italic
+
+window:
+  # Window dimensions (changes require restart)
+  #
+  # Specified in number of columns/lines, not pixels.
+  # If both are `0`, this setting is ignored.
+  dimensions:
+    columns: 0
+    lines: 0
+
+  decorations: none
+
+  dynamic_title: true
+
+  offset:
+    x: 0
+    y: 1
+
+  glyph_offset:
+    x: 0
+    y: 1
+
+  padding:
+    x: 25
+    y: 25
+
+  dynamic_padding: true
+
+startup_mode: windowed
+
+
+key: return, 
+mods: Command, 
+action: SpawnNewInstance
+
+
+use_thin_strokes: true
+
+
+live_config_reload: true
+
+# BEGIN ACE
+colors:
+  primary:
+    background: '0x121f18'
+    foreground: '0xb8b6b7'
+  cursor:
+    text:       '0x121f18'
+    cursor:     '0xb8b6b7'
+  normal:
+    black:      '0x121f18'
+    red:        '0x6D574A'
+    green:      '0x655E54'
+    yellow:     '0x894D3B'
+    blue:       '0x8D6952'
+    magenta:    '0x8D766E'
+    cyan:       '0x958375'
+    white:      '0xb8b6b7'
+  bright:
+    black:      '0x807f80'
+    red:        '0x6D574A'
+    green:      '0x655E54'
+    yellow:     '0x894D3B'
+    blue:       '0x8D6952'
+    magenta:    '0x8D766E'
+    cyan:       '0x958375'
+    white:      '0xb8b6b7'
+
+# END ACE
